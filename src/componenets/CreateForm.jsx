@@ -12,7 +12,6 @@ const CreateForm = (props) => {
     await axios
       .get("http://localhost:3001/getData")
       .then((res) => {
-        console.log("new form data ", res);
         props.setdata(res.data);
       })
       .catch((e) => {
@@ -29,7 +28,7 @@ const CreateForm = (props) => {
       openingHours: openingHours,
       image_src: image,
     };
-    console.log("this is new Data", newData);
+
     await axios
       .post(`http://localhost:3001/create`, newData)
       .then((res) => {
