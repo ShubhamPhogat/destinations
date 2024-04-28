@@ -1,0 +1,49 @@
+.col-3
+{
+    padding-left: 3%;
+    margin-left: 5%;
+}
+.card{
+    margin-left: 5%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    flex-grow: 1;
+    flex-basis: 200;
+    position: relative;
+}
+.img
+{
+    object-fit: cover;
+    width:fit-content ;
+    height:fit-content;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.imgCont
+{
+    object-fit: cover; 
+  height: 220px;
+  
+
+}
+.bin , .edit
+{
+display: inline;
+background-color: rgb(5, 6, 6);
+color: aliceblue;
+border-radius: 50%;
+position: relative;
+box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+width: 10%;
+height: 5%;
+right: -90px;
+position: absolute;
+/* z-index: 1; */
+}
+.edit{
+
+    right: -50px;
+}
+

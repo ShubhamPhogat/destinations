@@ -1,0 +1,18 @@
+.belt
+{
+    margin: 5%;
+    width: 100vw;
+    position: relative;
+    
+}
+.row
+{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.blur
+{
+    filter: blur(20px);
+}
