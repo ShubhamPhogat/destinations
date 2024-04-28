@@ -1,7 +1,6 @@
 import React from "react";
 import "../stylesheets/navbar.css";
 import { FaDragon } from "react-icons/fa6";
-import { CiSearch } from "react-icons/ci";
 import { CiLogin } from "react-icons/ci";
 const Navbar = () => {
   let handleClick = (e) => {
